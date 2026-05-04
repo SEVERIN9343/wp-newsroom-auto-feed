@@ -2,32 +2,18 @@
 
 Plugin WordPress permettant d’afficher automatiquement les dernières actualités et publications selon les catégories.
 
-## Objectif
+## 🎯 Problème
+Sur un site corporate, les actualités, publications ou articles doivent souvent être affichés à plusieurs endroits du site. Les gérer manuellement peut prendre du temps et créer des oublis ou incohérences.
 
-Ce plugin a été développé pour automatiser l’affichage des articles WordPress sur différentes zones du site :
+## 💡 Solution
+Newsroom Auto Feed automatise l’affichage des articles WordPress selon les catégories, tags ou zones du site grâce à des shortcodes personnalisés.
 
-- page mère Actualités
-- page mère Publications
-- homepage
-- blocs “À la une”
-- flux d’articles avec pagination
-
-Lorsqu’un article est publié dans une catégorie donnée, il remonte automatiquement dans les blocs correspondants.
-
-## Fonctionnalités
-
-- Affichage automatique des articles les plus récents
-- Shortcode pour article mis en avant
-- Shortcode pour grille d’actualités ou publications
-- Shortcode pour slider d’actualités en page d’accueil
-- Filtrage par catégorie
-- Filtrage par tag ou domaine
-- Pagination personnalisée
-- Side panel de recherche
-- Animations au scroll
-- Slider horizontal pour la home page
-- Support des images mises en avant
-- Compatible avec les catégories WordPress natives
+## 🚀 Bénéfices
+- Gain de temps dans la gestion éditoriale
+- Affichage automatique des contenus récents
+- Meilleure cohérence entre les pages
+- Amélioration du maillage interne
+- Compatible avec une stratégie SEO de contenu
 
 ## Shortcodes
 
