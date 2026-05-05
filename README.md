@@ -49,44 +49,66 @@ WP Newsroom Auto Feed automatise l’affichage des articles WordPress selon les 
 ### 📌 Article mis en avant
 ```text
 [zeb_news_featured category="actualites" posts="1"]
+```
 
-📰 Flux d’actualités
+### 📰 Flux d’actualités
+```text
 [zeb_news_feed category="actualites" posts="6" title="Nos actualités"]
+```
 
-📄 Flux de publications
+### 📄 Flux de publications
+```text
 [zeb_news_feed category="publications" posts="6" title="Nos publications"]
+```
 
-🏠 Bloc homepage
+### 🏠 Bloc homepage
+```text
 [zeb_home_news category="actualites" posts="4" title="Nos actualités"]
+```
 
 ---
 
-⚙️ Fonctionnement
+## ⚙️ Fonctionnement
 
-Le plugin utilise WP_Query pour récupérer dynamiquement les contenus et les injecter via des shortcodes personnalisés.
-Des animations et interactions sont ajoutées avec JavaScript (IntersectionObserver).
+Le plugin utilise `WP_Query` pour récupérer dynamiquement les contenus et les injecter via des shortcodes personnalisés.  
 
----
-🛠️ Stack
-PHP
-WordPress
-WP_Query
-Shortcodes WordPress
-JavaScript
-CSS responsive
-IntersectionObserver
+Des animations et interactions sont ajoutées avec JavaScript (`IntersectionObserver`).
 
 ---
-📦 Installation
-Copier le dossier du plugin dans :
+
+## 🛠️ Stack
+
+- PHP  
+- WordPress  
+- WP_Query  
+- Shortcodes WordPress  
+- JavaScript  
+- CSS responsive  
+- IntersectionObserver  
+
+---
+
+## 📦 Installation
+
+1. Copier le dossier du plugin dans :
+
+```bash
 wp-content/plugins/wp-newsroom-auto-feed/
+```
+
+2. Activer le plugin depuis l’administration WordPress :
+
+```text
+Extensions > Activer
+```
+
+3. Utiliser les shortcodes dans les pages WordPress
 
 ---
-Activer le plugin depuis l’administration WordPress :
-Extensions > Activer
 
-Utiliser les shortcodes dans les pages WordPress
-🗂️ Structure du plugin
+## 🗂️ Structure du plugin
+
+```text
 wp-newsroom-auto-feed/
 ├── wp-newsroom-auto-feed.php
 ├── README.md
@@ -95,8 +117,10 @@ wp-newsroom-auto-feed/
     │   └── newsroom.css
     └── js/
         └── newsroom.js
-        
+```
+
 ---
-👤 Auteur
+
+## 👤 Auteur
 
 Sévérin OGAH
