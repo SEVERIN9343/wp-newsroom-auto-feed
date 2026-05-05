@@ -59,11 +59,14 @@ WP Newsroom Auto Feed automatise l’affichage des articles WordPress selon les 
 🏠 Bloc homepage
 [zeb_home_news category="actualites" posts="4" title="Nos actualités"]
 
+---
+
 ⚙️ Fonctionnement
 
 Le plugin utilise WP_Query pour récupérer dynamiquement les contenus et les injecter via des shortcodes personnalisés.
 Des animations et interactions sont ajoutées avec JavaScript (IntersectionObserver).
 
+---
 🛠️ Stack
 PHP
 WordPress
@@ -73,10 +76,12 @@ JavaScript
 CSS responsive
 IntersectionObserver
 
+---
 📦 Installation
 Copier le dossier du plugin dans :
 wp-content/plugins/wp-newsroom-auto-feed/
 
+---
 Activer le plugin depuis l’administration WordPress :
 Extensions > Activer
 
@@ -90,7 +95,8 @@ wp-newsroom-auto-feed/
     │   └── newsroom.css
     └── js/
         └── newsroom.js
-
+        
+---
 👤 Auteur
 
 Sévérin OGAH
