@@ -1,75 +1,87 @@
 # WP Newsroom Auto Feed
 
-Plugin WordPress permettant d’afficher automatiquement les dernières actualités et publications selon les catégories.
+Plugin WordPress permettant d’afficher automatiquement les actualités et publications selon les catégories, avec une logique optimisée pour le contenu et le SEO.
+
+---
 
 ## 🎯 Problème
-Sur un site corporate, les actualités, publications ou articles doivent souvent être affichés à plusieurs endroits du site. Les gérer manuellement peut prendre du temps et créer des oublis ou incohérences.
+
+Sur un site corporate, les actualités et publications doivent souvent être affichées à plusieurs endroits (homepage, pages internes, blocs spécifiques).
+
+Résultat :
+- gestion manuelle répétitive
+- risques d’oubli ou d’incohérence
+- difficulté à maintenir un maillage interne efficace
+
+---
 
 ## 💡 Solution
-Newsroom Auto Feed automatise l’affichage des articles WordPress selon les catégories, tags ou zones du site grâce à des shortcodes personnalisés.
+
+WP Newsroom Auto Feed automatise l’affichage des articles WordPress selon les catégories, tags ou zones du site grâce à des shortcodes personnalisés.
+
+---
 
 ## 🚀 Bénéfices
-- Gain de temps dans la gestion éditoriale
-- Affichage automatique des contenus récents
-- Meilleure cohérence entre les pages
-- Amélioration du maillage interne
-- Compatible avec une stratégie SEO de contenu
 
-## Shortcodes
+- Gain de temps dans la gestion éditoriale  
+- Affichage automatique des contenus récents  
+- Cohérence globale des publications  
+- Amélioration du maillage interne  
+- Optimisation SEO du contenu  
 
-### Article mis en avant
+---
 
+## 🖼️ Aperçu
+
+### 📰 Bloc actualités
+![Actualités](assets/images/news-feed.png)
+
+### 🏠 Homepage
+![Homepage](assets/images/news-home.png)
+
+### 📄 Page publications
+![Publications](assets/images/news-publications.png)
+
+---
+
+## 🔗 Shortcodes
+
+### 📌 Article mis en avant
 ```text
 [zeb_news_featured category="actualites" posts="1"]
-```
 
-### Flux d’actualités
-
-```text
+📰 Flux d’actualités
 [zeb_news_feed category="actualites" posts="6" title="Nos actualités"]
-```
 
-### Flux de publications
-
-```text
+📄 Flux de publications
 [zeb_news_feed category="publications" posts="6" title="Nos publications"]
-```
 
-### Bloc home page
-
-```text
+🏠 Bloc homepage
 [zeb_home_news category="actualites" posts="4" title="Nos actualités"]
-```
 
-## Stack utilisée
+⚙️ Fonctionnement
 
-- PHP
-- WordPress
-- WP_Query
-- Shortcodes WordPress
-- JavaScript
-- CSS responsive
-- IntersectionObserver
+Le plugin utilise WP_Query pour récupérer dynamiquement les contenus et les injecter via des shortcodes personnalisés.
+Des animations et interactions sont ajoutées avec JavaScript (IntersectionObserver).
 
-## Installation
+🛠️ Stack
+PHP
+WordPress
+WP_Query
+Shortcodes WordPress
+JavaScript
+CSS responsive
+IntersectionObserver
 
-1. Copier le dossier du plugin dans :
-
-```bash
+📦 Installation
+Copier le dossier du plugin dans :
 wp-content/plugins/wp-newsroom-auto-feed/
-```
 
-2. Activer le plugin depuis l’administration WordPress :
-
-```text
+Activer le plugin depuis l’administration WordPress :
 Extensions > Activer
-```
 
-3. Utiliser les shortcodes dans les pages WordPress.
-
-## Structure du plugin
-
-```text
+Utiliser les shortcodes dans les pages WordPress
+🗂️ Structure du plugin
 wp-newsroom-auto-feed/
 ├── wp-newsroom-auto-feed.php
 ├── README.md
@@ -78,8 +90,7 @@ wp-newsroom-auto-feed/
     │   └── newsroom.css
     └── js/
         └── newsroom.js
-```
 
-## Auteur
+👤 Auteur
 
 Sévérin OGAH
